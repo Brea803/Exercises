@@ -1,0 +1,50 @@
+
+body {
+  max-width: 800px;
+  margin: auto;
+  text-align: center; 
+  padding-top: 5%;
+}
+
+p {
+	font-size: 24px;
+	text-align: center;
+	margin: auto;
+	font-family: futura;
+
+}
+
+img {
+	max-width: 50%;
+	max-height: auto;
+	float: center;
+	width: 500px;
+	height: auto;
+
+	}
+
+.button {
+  background-color: lightgrey;
+  border: none;
+  color: none;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+a:link, a:visited {
+  background-color: cyan;
+  color: white;
+  padding: 14px 14px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
