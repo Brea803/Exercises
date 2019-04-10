@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF_8">
+	<title>Postcard Site Home</title>
+	<link rel="stylesheet" type="text/css" href="stylePostcard.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+
+<!-- navigation bar -->
+<div class="navbar">
+  <a href="#home">Home</a>
+ <!--  <a href="#about">About</a> -->
+<!-- Drop down button within navigation bar -->
+  <div class="dropdown">
+    <button class="dropbtn">Postcards 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#postcard1">Stamford Tully Center</a>
+      <a href="#postcard2">Old Town Hall</a>
+      <a href="#postcard3">Atlantic Street</a>
+      <a href="#postcard4">Stamford High School
+      <a href="#postcard5"> Stamfor Station</a>
+    </div>
+  </div> 
+  <a href="#makeyourown">Make Your own</a>
+</div>
+
+<!-- Connecticut Banner -->
+<div class="banner">
+  <p>Postcards of Stamford,CT</p>
+  
+</div>
+
+
+<!-- Pictures of stamford -->
+<div class="bg"></div>
+
+
+
+<!-- Scroll to top button -->
+<button id="myBtn"><a href="#top" style="color: white">Top</a></button>
+
+<!-- Website text -->
+
+
+<div class="content">
+
+<div class="facts">
+  <div class="column">
+  	<p id="number1"> 128,851</p>
+  	<p id="text1">Population</p>
+  </div>
+    <div class="column">
+  	<p id="number1"> 1641</p>
+  	<p id="text1">Founded In</p>
+  </div>
+  <div class="column">
+  	<p id="number1"> 34.6</p>
+  	<p id="text1">Miles from Manhattan</p>
+  </div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- <div class="container" id="About">
+<h1>About</h1>
+	<p> The purpose of this website is to showcase several postcards that I found from the Stamford Archives website. If you hover over the image an updated photo of that area will appear.</p>
+</div>
+ -->
+<br>
+<br>
+
+<!-- POSTCARD 1 -->
+<div class="container" id="postcard1">
+<div class="postcard_table">
+  <!-- text -->
+  <div class="postcard_column">
+    <p id="postcard_header"> 
+      <h1>Stamford Tully Center</h1>
+    </p>
+  </div>
+  <!-- image -->
+    <div class="postcard_column">
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="photos/hospital.jpg">
+    </div>
+    <div class="flip-card-back">
+      <img src="photos/images.jpg">
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+<!-- POST CARD 2 -->
+
+  <div class="container" id="postcard2">
+<div class="postcard_table">
+  <div class="postcard_column">
+    <!-- text -->
+    <p id="postcard_header"> 
+      <h1>Old Town Hall</h1>
+    </p>
+  </div>
+  <!-- image -->
+    <div class="postcard_column">
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="photos/oldtownhall.jpg">
+    </div>
+    <div class="flip-card-back">
+      <img src="photos/download.jpg">
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<!-- third postcard -->
+<div class="container" id="postcard3">
+<div class="postcard_table">
+  <div class="postcard_column">
+    <!-- text -->
+    <p id="postcard_header"> 
+      <h1>Atlantic Street</h1>
+    </p>
+  </div>
+  <!-- image -->
+    <div class="postcard_column">
+      <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="photos/atlanticstreet.jpg">
+    </div>
+    <div class="flip-card-back">
+      <img src="photos/streetview.jpg">
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+
+<!-- POST CARD 4 -->
+
+ <div class="container" id="postcard4">
+<div class="postcard_table">
+  <!-- text -->
+  <div class="postcard_column">
+    <p id="postcard_header"> 
+      <h1>Stamford High School</h1>
+    </p>
+  </div>
+  <!-- image -->
+    <div class="postcard_column">
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="photos/shs.jpg">
+    </div>
+    <div class="flip-card-back">
+      <img src="photos/shsnow.jpg">
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+
+<!-- POST CARD 5 -->
+
+  <div class="container" id="postcard5">
+<div class="postcard_table">
+  <div class="postcard_column">
+    <!-- text -->
+    <p id="postcard_header"> 
+      <h1>Stamford Station</h1>
+    </p>
+  </div>
+  <!-- image -->
+    <div class="postcard_column">
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="photos/station.jpg">
+    </div>
+    <div class="flip-card-back">
+      <img src="photos/stamstation.jpg">
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+
+
+<div id="makeyourown"></div>
+<p>Desgin Your Own Postcard!</p>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <link rel ="stylesheet" href="style.css">
+    <!--<style> body {padding: 0; margin: 0;} </style>-->
+    <script src="../p5.min.js"></script>
+    <script src="../addons/p5.dom.min.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+      
+      <div id="sketch-holder">
+      <!-- Sketch goes here -->
+      </div>
+      
+      <br /><br />
+      
+      <div id="information">
+      <p>Click above to draw. Key press "s" to save your drawing!</p>
+      <p>Key press "z" to clear.</p>
+      </div>
+      
+      <!--<div id="key">
+          <div><img src="assets/house.png" width = 40px height = 40px /></div>
+          <div>- Key press "h"</div>-->
+          <!--<div><img src="assets/bulb.png" width = 50px height = 50px /></div>
+          <div>- Key press "l"</div>-->
+      <!--</div>-->
+      
+  </body>
+</html>
+
+ 
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
